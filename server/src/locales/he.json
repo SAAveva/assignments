@@ -1,0 +1,26 @@
+{
+	"Hello": "שלום",
+	"String": "String",
+	"You have %3 messages": {
+		"one": "You have %3 messages",
+		"other": "You have %3 messages"
+	},
+	"You have %s messages": {
+		"one": "You have %s messages",
+		"other": "You have %s messages"
+	},
+	"password too short": "password too short",
+	"internal error occured": "internal error occured",
+	"internal error": "internal error",
+	"name is invalid": "name is invalid",
+	"government id is invalid": "government id is invalid",
+	"couldn't update user": "couldn't update user",
+	"field '0' does not exist": "field '0' does not exist",
+	"field 'gov_i' does not exist": "field 'gov_i' does not exist",
+	"can't edit field: field 'gov_i' does not exist": "can't edit field: field 'gov_i' does not exist",
+	"can't connect to database": "can't connect to database",
+	"user creation error: id is already set": "user creation error: id is already set",
+	"name field is invalid": "name field is invalid",
+	"can't edit user with no id set": "can't edit user with no id set",
+	"can't create user: user already exists": "can't create user: user already exists"
+}

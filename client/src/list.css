@@ -1,0 +1,62 @@
+.list {
+  display: flex;
+  line-height: 15px;
+  flex-direction: column;
+}
+
+.list-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  padding-top: 0;
+  border-top: 1px solid rgba(255,255,255,.3);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.list-actions a {
+  text-transform: capitalize;
+}
+
+.list-actions a:hover {
+  text-decoration: capitalize underline;
+  color: red !important;
+}
+
+.list-actions a svg {
+  transform: translateY(1px);
+}
+
+.list-group-actions {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+}
+
+.list-single-actions {
+  padding: 0;
+}
+
+.list-cell {
+  padding: 30px;
+}
+
+.list-row input {
+  transform: scale(1.5);
+}
+
+.list-row:nth-child(2n) {
+  backdrop-filter: brightness(90%);
+}
+
+.list-row.selected {
+  filter: brightness(.7);
+}
+
+.list-field {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
+

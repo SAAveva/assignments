@@ -1,0 +1,4 @@
+DROP TABLE Assignment;
+DROP TABLE Class;
+DROP TABLE UserField;
+DROP TABLE User;
